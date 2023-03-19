@@ -1,0 +1,6 @@
+A form of regularization used to avoid overfitting when training a learner with an iterative method, such as gradient descent.
+Early stopping is an optimization technique used to reduce overfitting without compromising on model accuracy. 
+The main idea behind early stopping is to stop training before a model starts to overfit.
+Therefore, the epoch when the validation error starts to increase is precisely when the model is overfitting to the training set and does not generalize new data correctly. 
+This is when we need to stop our training.
+
